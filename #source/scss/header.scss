@@ -1,0 +1,53 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 35px;
+	z-index: 1000;
+	/* .header__row */
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+	}
+	/* .header__logo */
+	&__logo {
+
+	}
+}
+.container {
+}
+.logo {
+	/* .logo__title */
+	&__title {
+		font-family: "Post";
+		font-weight: 600;
+		font-size: 36px;
+		margin-bottom: 10px;
+		line-height: 30px;
+
+
+
+	}
+	/* .logo__subtitle */
+	&__subtitle {
+		font-size: 12px;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+	}
+}
+.menu {
+
+	&__row {
+	display: flex;
+	}
+
+	/* .menu-row__item */
+	&__item {
+		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
+		letter-spacing: 0.05em;
+		margin-left: 40px;
+	}
+}
