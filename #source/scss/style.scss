@@ -233,7 +233,7 @@ main {
 }
 
 .item-flat {
-	position: relative;
+    position: relative;
 
     /* .item-flat__img */
     &__img {
@@ -251,4 +251,166 @@ main {
         bottom: 50px;
         left: 50px;
     }
+}
+
+
+// ====================================================================
+
+.watch {
+    padding: 180px 0;
+    background-image: url("../image/watch/watch.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* .watch__row */
+    &__row {
+        display: flex;
+        margin: 0 -17px;
+
+    }
+
+    /* .watch__column */
+    &__column {
+        padding: 0 17px;
+        flex: 0 0 50%;
+        width: 50%;
+
+        &:nth-child(2) {
+            align-self: flex-end;
+        }
+    }
+}
+
+.container {}
+
+.info-watch {
+
+    /* .info-watch__title */
+    &__title {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 36px;
+        color: #D4C17F;
+        margin-bottom: 50px;
+    }
+
+    /* .info-watch__subtile */
+    &__subtile {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.form-watch {
+
+
+    /* .form-watch__body */
+    &__body {}
+
+    /* .form-watch__row */
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -17px -15px;
+    }
+
+    /* .form-watch__item */
+    &__item {
+        flex: 0 0 50%;
+        padding: 17px 15px;
+    }
+
+    /* .form-watch__text */
+    &__text {
+        font-size: 13px;
+        line-height: 16px;
+        color: #E7E7E7;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+
+
+.screen {
+
+    /* .screen__body */
+    &__body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 200px;
+    }
+
+    /* .screen__clip */
+
+
+    &__clip {
+        display: block;
+        width: 720px;
+        height: auto;
+    }
+
+}
+
+.screen-image {
+
+    /* .screen-image__body */
+    &__body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 180px;
+    }
+}
+
+.image-items {
+    position: relative;
+
+    &__bg {}
+
+    &__play {
+        position: absolute;
+
+    }
+}
+
+.region {
+    /* .region__title */
+    &__title {
+        font-family: Playfair Display;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        color: #D4C17F;
+    }
+    /* .region__card */
+    &__card {
+    	padding: 100px 0 180px 0;
+    	text-align: center;
+    }
+}
+
+.question {
+	/* .question__title */
+	&__title {
+	}
+	/* .question__row */
+	&__row {
+		display: flex;
+	}
+	/* .question__column */
+	&__column {
+		flex: 0 0 25%;
+	}
+}
+.container {
+}
+.input {
+}
+.btn {
 }

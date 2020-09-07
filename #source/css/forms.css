@@ -1,0 +1,37 @@
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 15px 20px;
+  width: 100%;
+  background-color: #D4C17F;
+}
+.btn.fw {
+  width: 100%;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0 !important;
+  width: 100%;
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #BEBEBE;
+  transition: 0.2s;
+}
+.input:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+textarea.input {
+  resize: none;
+  padding: 0px 0px;
+}
